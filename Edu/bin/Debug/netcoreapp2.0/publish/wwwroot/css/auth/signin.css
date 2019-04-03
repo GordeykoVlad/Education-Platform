@@ -1,0 +1,18 @@
+.auth-wrapper {
+    height: 100vh;
+}
+
+.auth-vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.auth-horizontal-center {
+    width: 400px;
+    margin: auto
+}
+
+.form-auth .form-heading {
+    text-align: center;
+}

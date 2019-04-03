@@ -1,0 +1,47 @@
+﻿@model Edu.ViewModels.Auth.RegisterModel
+@{
+    Layout = "_Layout";
+}
+@section Styles {
+    <link href="~/css/auth/signin.css" rel="stylesheet">
+}
+@section Scripts {
+    <script src="~/js/auth/register.js"></script>
+}
+
+<div class="auth-wrapper">
+    <div class="auth-vertical-center">
+        <div class="auth-horizontal-center">
+            <form action="@Url.Action("Register", "Auth")" class="form-auth" method="post">
+                <h3 class="form-heading">Регистрация</h3>
+                @if (Model.Message != "")
+                {
+                    <div class="alert alert-warning" role="alert" id="errorAlert">
+                        <button type="button" class="close" aria-label="Close" id="errorAlertClose">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        @Model.Message
+                    </div>
+                }
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label class="sr-only" for="inputLogin">Логин</label>
+                    <input type="text" class="form-control input-lg" id="inputLogin" name="Login"
+                           autofocus required placeholder="Логин">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputPassword">Пароль</label>
+                    <input type="password" class="form-control input-lg" id="inputPassword" name="Password"
+                           required placeholder="Пароль" kl_virtual_keyboard_secure_input="on">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputPasswordConfirm">Подтверждение пароля</label>
+                    <input type="password" class="form-control input-lg" id="inputPasswordConfirm" name="PasswordConfirm" 
+                           required placeholder="Подтверждение пароля" kl_virtual_keyboard_secure_input="on">
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+</div>
+    

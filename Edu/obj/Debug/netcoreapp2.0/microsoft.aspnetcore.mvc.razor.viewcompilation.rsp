@@ -1,0 +1,9 @@
+C:\Users\Olga\source\repos\Shop\Shop
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=Shop
+--content-root=C:\Users\Olga\source\repos\Shop\Shop
+--file=C:\Users\Olga\source\repos\Shop\Shop\Views\Auth\Register.cshtml
+--file=C:\Users\Olga\source\repos\Shop\Shop\Views\Auth\SignIn.cshtml
+--file=C:\Users\Olga\source\repos\Shop\Shop\Views\Home\Index.cshtml
+--file=C:\Users\Olga\source\repos\Shop\Shop\Views\Shared\_Layout.cshtml
+--file=C:\Users\Olga\source\repos\Shop\Shop\Views\Shared\_Navbar.cshtml

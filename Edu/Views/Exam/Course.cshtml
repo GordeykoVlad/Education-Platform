@@ -1,0 +1,45 @@
+﻿@model EducationPlatform.ViewModels.Exam.CourseModel
+
+@{
+    Layout = "_Navbar";
+    var i = 1;
+}
+
+
+
+<div class="container">
+
+    <div class="panel panel-default">
+        <div class="panel-heading"> Уровень: @Model.Course.Name (Вопроcов @Model.CourseData.Count)</div>
+        <div class="panel-body">
+            <form id="answerForm" action="@Url.Action("Result","Exam", new { courseId=Model.Course.Id })" method="post">
+                @foreach (var qa in Model.CourseData)
+                {
+                    <span>@i @qa.Key.Text</span>
+
+
+
+                    @foreach (var answer in qa.Value)
+                    {
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="@qa.Key.Id" value="@answer.Id" required>
+                                @answer.Text
+                            </label>
+                        </div>
+                    }
+
+                    i++;
+                }
+            </form>
+
+            <div class="panel-footer">
+                  
+                <button type="submit" class="btn btn-primary btn-lg btn-block" form="answerForm">Завершить Тест</button>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

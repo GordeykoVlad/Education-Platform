@@ -1,0 +1,15 @@
+﻿@model Shop.ViewModels.Home.IndexModel
+
+@{
+    Layout = "_Navbar";
+}
+<div class="container">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h2>Вы вошли как @Model.UserName</h2>
+    }
+    else
+    {
+        <h2>Вы не вошли в систему</h2>
+    }
+</div>

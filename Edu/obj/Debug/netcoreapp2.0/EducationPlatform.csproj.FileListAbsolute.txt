@@ -1,0 +1,22 @@
+D:\Учеба\Shop\Shop\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.deps.json
+D:\Учеба\Shop\Shop\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.runtimeconfig.json
+D:\Учеба\Shop\Shop\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.runtimeconfig.dev.json
+D:\Учеба\Shop\Shop\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.dll
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.csprojResolveAssemblyReference.cache
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.csproj.CoreCompileInputs.cache
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.AssemblyInfoInputs.cache
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.AssemblyInfo.cs
+D:\Учеба\Shop\Shop\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.pdb
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.dll
+D:\Учеба\Shop\Shop\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.pdb
+D:\Учеба\Edu platfform\edu\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.deps.json
+D:\Учеба\Edu platfform\edu\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.runtimeconfig.json
+D:\Учеба\Edu platfform\edu\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.runtimeconfig.dev.json
+D:\Учеба\Edu platfform\edu\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.dll
+D:\Учеба\Edu platfform\edu\Shop\bin\Debug\netcoreapp2.0\EducationPlatform.pdb
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.csprojResolveAssemblyReference.cache
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.csproj.CoreCompileInputs.cache
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.AssemblyInfoInputs.cache
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.AssemblyInfo.cs
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.dll
+D:\Учеба\Edu platfform\edu\Shop\obj\Debug\netcoreapp2.0\EducationPlatform.pdb

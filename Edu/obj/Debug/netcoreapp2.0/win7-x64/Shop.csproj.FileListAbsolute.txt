@@ -1,0 +1,13 @@
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\hostpolicy.dll
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\hostfxr.dll
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.exe
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.deps.json
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.runtimeconfig.json
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.runtimeconfig.dev.json
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.dll
+C:\Users\Olga\source\repos\Shop\Shop\bin\Debug\netcoreapp2.0\win7-x64\Shop.pdb
+C:\Users\Olga\source\repos\Shop\Shop\obj\Debug\netcoreapp2.0\win7-x64\Shop.csproj.CoreCompileInputs.cache
+C:\Users\Olga\source\repos\Shop\Shop\obj\Debug\netcoreapp2.0\win7-x64\Shop.AssemblyInfoInputs.cache
+C:\Users\Olga\source\repos\Shop\Shop\obj\Debug\netcoreapp2.0\win7-x64\Shop.AssemblyInfo.cs
+C:\Users\Olga\source\repos\Shop\Shop\obj\Debug\netcoreapp2.0\win7-x64\Shop.dll
+C:\Users\Olga\source\repos\Shop\Shop\obj\Debug\netcoreapp2.0\win7-x64\Shop.pdb

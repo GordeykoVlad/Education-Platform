@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education Platform">
+    <title>Education Platform</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css"> @*путь прописывается вручную*@
+    @RenderSection("LibStyles", false)
+    <link rel="stylesheet" href="~/css/shared/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="~/css/shared/override.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- // -->
+
+    @RenderSection("Styles", false)
+</head>
+<body>
+    @RenderBody()
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="~/js/Exam/Carousel.js"></script>
+    <script src="~/lib/jquery/js/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    @RenderSection("LibScripts", false)
+    @RenderSection("Scripts", false)
+    <section id="footer" style="background-color:#ebebeb">
+        <div class="container">
+
+            <div class="container">
+                <div class="text-center center-block">
+                    <br />
+                    <a href="https://www.facebook.com/vlad.gordeyko"><i class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="https://plus.google.com/107614256567754237082"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href="mailto:gordeikovlad@mail.ru"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p>Образовательная платформа Education Platform. Создано специально в рамках курса "Проектирование и архитектура программных систем"</p>
+                    <p class="h6">&copy All right NOT Reversed.<a class="text-green ml-2" href="https://vk.com/linken_vlad" target="_blank">Gordeyko V.A</a></p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+</body>
+
+
+
+</html>

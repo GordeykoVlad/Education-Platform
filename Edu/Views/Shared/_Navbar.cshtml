@@ -1,0 +1,56 @@
+﻿@model Edu.ViewModels.Shared.NavbarModel
+@{
+    Layout = "_Layout";
+}
+@section LibStyles {
+    @RenderSection("LibStyles", false)
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/shared/navbar.css">
+    @RenderSection("Styles", false)
+}
+@section LibScripts {
+    @RenderSection("LibScripts", false)
+}
+@section Scripts {
+    @RenderSection("Scripts", false)
+}
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#navbarLinks" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="@Url.Action("Language", "Exam")"><span class="navbar-brand">Education Platform </span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="nav navbar-nav navbar-right">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li>
+                        <a href="#">Добро пожаловать, @Model.UserName</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("SignOut", "Auth")">Выход</a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="@Url.Action("SignIn", "Auth")">Вход</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Register", "Auth")">Регистрация</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@RenderBody()
